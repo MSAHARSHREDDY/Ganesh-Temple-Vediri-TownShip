@@ -1,0 +1,30 @@
+{
+  "temple": {
+    "name": "Sita Rama Chandra Swamy Devalayam",
+    "description": "A divine place dedicated to Lord Rama, Sita Devi, Lakshmana and Hanuman."
+  },
+  "deities": [
+    {
+      "name": "Lord Rama",
+      "image": "/src/assets/temple.jpg",
+      "description": "Seventh avatar of Vishnu"
+    },
+    {
+      "name": "Sita Devi",
+      "image": "/src/assets/temple.jpg",
+      "description": "Consort of Lord Rama"
+    }
+  ],
+  "sevas": [
+    { "name": "Suprabhata Seva", "time": "5:00 AM" },
+    { "name": "Archana", "time": "8:00 AM" }
+  ],
+  "gallery": [
+    { "image": "/src/assets/temple.jpg" },
+    { "image": "/src/assets/temple.jpg" }
+  ],
+  "contact": {
+    "phone": "9876543210",
+    "email": "temple@email.com"
+  }
+}
