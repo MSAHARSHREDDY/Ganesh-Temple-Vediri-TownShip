@@ -59,7 +59,8 @@ export default function Contact() {
             transition
           ">
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3805.039698209312!2d78.35289689999999!3d17.5056183!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb9270e3ea77f1%3A0xab2e21aa892d4ee0!2sSri%20SeetaRamanjaneya%20Swamy%20Devastanamu%20(Ramalayam)!5e0!3m2!1sen!2sin!4v1777303572313!5m2!1sen!2sin"
+              
+               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3804.784524020974!2d78.34395780000001!3d17.5177965!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb8de918a72d93%3A0x28fa3ed7f458a1d6!2sSiva%20temple!5e0!3m2!1sen!2sin!4v1777515209218!5m2!1sen!2sin"
               width="100%"
               height="300"
               style={{ border: 0 }}

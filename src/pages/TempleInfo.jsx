@@ -30,7 +30,7 @@ export default function TempleInfo() {
       </h1>
 
       {/* SUBTITLE */}
-      <h2 className="text-center text-lg mb-2 text-blue-800 font-bold">
+      <h2 className="text-center text-lg mb-2 text-yellow-900 font-bold">
         {section.subtitle}
       </h2>
 

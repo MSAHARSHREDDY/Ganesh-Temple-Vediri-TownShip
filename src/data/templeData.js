@@ -6,30 +6,35 @@ export const templeData = {
   // ✅ ABOUT SECTION (UNCHANGED + CLEANED)
   // ================================
   about: {
-    title: " SRI HARIHARA SAHITA VANCHITA GANAPATHI DEVALAYAM",
-    subtitle: "శ్రీ హరిహర సహిత వాంఛిత గణపతి దేవాలయము",
-    blessings: ["శ్రీరస్తు", "శుభమస్తు", "అవిఘ్నమస్తు"],
+  title: "SRI HARIHARA SAHITA VANCHITA GANAPATHI DEVALAYAM",
+  subtitle: "శ్రీ హరిహర సహిత వాంఛిత గణపతి దేవాలయము",
+  blessings: ["శ్రీరస్తు", "శుభమస్తు", "అవిఘ్నమస్తు"],
 
-    description: `
-  Sri Harihara Sahita Vanchita Ganapathi Devalayam is a sacred temple dedicated to Lord Rama, an incarnation of Lord Vishnu, along with Goddess Sita and Lord Lakshmana.
+  description: `
+Sri Harihara Sahita Vanchita Ganapathi Devalayam is a sacred temple dedicated to Lord Ganesha, the remover of obstacles and the giver of wisdom, prosperity, and success.
 
-The temple is a spiritual center for devotees seeking peace, prosperity, and divine blessings. It attracts devotees during Sri Rama Navami, Ekadasi, and other festivals.
-    `,
+Lord Ganapathi here is worshipped along with Lord Shiva (Harihara) and is believed to fulfill the sincere wishes (Vanchita) of devotees. The temple is a spiritual center where devotees come seeking peace, success, and divine blessings in all aspects of life.
+  `,
 
-    history: `
-The temple has been a place of devotion for many years and is an important spiritual landmark. Devotees believe prayers here bring harmony and remove obstacles.
-    `,
+  history: `
+The temple has been a place of devotion for many years and is regarded as a powerful spiritual center. Devotees believe that prayers offered to Lord Ganapathi here remove obstacles and bring success, harmony, and prosperity.
 
-    festivals: `
-- Sri Rama Navami
-- Hanuman Jayanthi
-- Vaikunta Ekadasi
-    `,
+The name "Vanchita Ganapathi" signifies the deity who fulfills the wishes of devotees with true faith and devotion.
+  `,
 
-    templeInfo: `
-The temple includes sub-shrines for Hanuman, Shiva, and Navagrahas. Daily poojas and rituals are performed in a traditional manner.
-    `,
-  },
+  festivals: `
+- Vinayaka Chavithi
+- Sankatahara Chaturthi
+- Maha Shivaratri
+- Ganesh Navaratri
+  `,
+
+  templeInfo: `
+The temple includes sub-shrines for Lord Shiva, Lord Hanuman, and Subramanya Swamy. Daily poojas such as  Archana, and Abhishekam are performed following traditional rituals.
+
+Special poojas are conducted on Chaturthi days, attracting a large number of devotees.
+  `,
+},
 
   // ================================
   // ✅ SUB TEMPLES (UNCHANGED)
@@ -136,26 +141,30 @@ The temple includes sub-shrines for Hanuman, Shiva, and Navagrahas. Daily poojas
 
     // 🔥 MERGED HISTORY + SIGNIFICANCE (IMPORTANT CHANGE)
     history: {
-      title: "History & Significance",
-      subtitle: "శ్రీ హరిహర సహిత వాంఛిత గణపతి దేవాలయము",
-      blessings: ["శ్రీరస్తు", "శుభమస్తు", "అవిఘ్నమస్తు"],
+  title: "History & Significance",
+  subtitle: "శ్రీ హరిహర సహిత వాంఛిత గణపతి దేవాలయము",
+  blessings: ["శ్రీరస్తు", "శుభమస్తు", "అవిఘ్నమస్తు"],
 
-      content: [
-        "🏛️ Sri Sita Rama Chandra Swamy Devalayam is a sacred temple dedicated to Lord Rama, Goddess Sita, and Lord Lakshmana.",
+  content: [
+    "🏛️ Sri Harihara Sahita Vanchita Ganapathi Devalayam is a sacred temple dedicated to Lord Ganesha, the remover of obstacles and the bestower of wisdom and success.",
 
-        "📖 Lord Rama represents **dharma (righteousness), truth, and ideal living**, making this temple spiritually significant.",
+    "🐘 Lord Ganapathi is worshipped as the **first deity (Adi Devata)** before starting any auspicious work, symbolizing success, intelligence, and prosperity.",
 
-        "📍 The temple has grown as a strong devotional center attracting devotees from nearby areas.",
+    "📖 The name 'Vanchita Ganapathi' signifies the divine form who **fulfills the wishes and desires of devotees** with true devotion.",
 
-        "📅 Special crowds gather during **Sri Rama Navami, Ekadasi**, and other auspicious days.",
+    "🕉️ 'Harihara Sahita' represents the presence and blessings of **Lord Shiva and Lord Vishnu**, making the temple spiritually powerful and unique.",
 
-        "🙏 Devotees believe prayers here **bring peace, remove obstacles, and bless families with prosperity**.",
+    "📍 The temple has grown into a strong devotional center, attracting devotees from nearby areas seeking blessings for success and obstacle removal.",
 
-        "🛕 The temple includes sub-shrines of **Hanuman, Shiva, Navagrahas, and Raja Rajeshwari**.",
+    "📅 Special crowds gather during **Vinayaka Chavithi, Sankatahara Chaturthi, and Ganesh Navaratri**.",
 
-        "🧘 It promotes **spiritual growth, discipline, and devotion** in a peaceful environment."
-      ],
-    },
+    "🙏 Devotees believe prayers here **remove obstacles (Vighnas), bring peace, and bless families with prosperity and happiness**.",
+
+    "🛕 The temple includes sub-shrines of **Lord Shiva, Hanuman, and Subramanya Swamy**.",
+
+    "🧘 The temple promotes **spiritual growth, discipline, and devotion** in a peaceful and divine environment."
+  ],
+},
 
     // ================================
     // ✅ DO'S & DON'TS (FIXED FORMAT)
@@ -242,12 +251,12 @@ The temple includes sub-shrines for Hanuman, Shiva, and Navagrahas. Daily poojas
       description: "Special archana performed to Lord Sri Rama for peace, prosperity, and divine blessings.",
     },
     {
-      name: "Archana",
-      image: "/images/sevas/archana.jpg",
+      name: "Ganesha Archana",
+      image: "/images/sevas/ganesh.jpg",
       description: "Offering prayers with sacred names for blessings.",
     },
     {
-      name: "Abhishekam",
+      name: " Shiva Abhishekam",
       image: "/images/sevas/abhishekam.jpg",
       description: "Sacred bath to the deity with milk, water, and other items.",
     },
@@ -258,35 +267,15 @@ The temple includes sub-shrines for Hanuman, Shiva, and Navagrahas. Daily poojas
       description: "Special pooja for strength, courage, and protection.",
     },
     {
-      name: "Navagraha Pooja",
-      image: "/images/sevas/navagraha.jpg",
+      name: "subramanya swamy seva",
+      image: "/images/sevas/subramanya.jpg",
       description: "Pooja to balance planetary influences.",
     },
   ],
 
   //gallery
   gallery: [
-  {
-    image: "/gallery/image1.png",
-  },
   
- 
-  {
-    image: "/gallery/image3.png",
-  },
-   {
-    image: "/gallery/image4.png",
-  },
-   {
-    image: "/gallery/image5.png",
-  },
-   {
-    image: "/gallery/image6.png",
-  },
-  
-  {
-    image: "/gallery/image8.png",
-  },
   
 ],
 
@@ -294,6 +283,6 @@ The temple includes sub-shrines for Hanuman, Shiva, and Navagrahas. Daily poojas
 contact: {
   phone: "9876543210",
   email: "temple@email.com",
-  location: "Policemen Housing Society, Prasanth Nagar, Miyapur, Hyderabad, Telangana 500049,"
+  location: "Plot no 18&19, Vediri Twp, Ameenpur, Miyapur, Hyderabad, Telangana 502033"
 }
 };

@@ -6,7 +6,7 @@ export default function Header() {
         SRI HARIHARA SAHITA VANCHITA GANAPATHI DEVALAYAM
       </h1>
 
-      <p className="text-blue-800 text-xl mt-2 font-bold">
+      <p className="text-yellow-900 text-xl mt-2 font-bold">
        శ్రీ హరిహర సహిత వాంఛిత గణపతి దేవాలయము
       </p>
 

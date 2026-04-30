@@ -16,7 +16,7 @@ export default function About() {
       </h1>
 
       {/* Telugu Title */}
-      <h2 className="text-center text-blue-800 text-lg md:text-xl font-bold mb-4">
+      <h2 className="text-center text-yellow-900 text-lg md:text-xl font-bold mb-4">
         {about.subtitle}
       </h2>
 
