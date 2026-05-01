@@ -1,37 +1,23 @@
-import { useRef, useState } from "react";
-import { FaVolumeMute, FaVolumeUp } from "react-icons/fa";
+import { useRef, useEffect } from "react";
 
-export default function BackgroundAudio() {
+export default function BackgroundAudio({ volume = 0.5, isEnabled, isMuted }) {
   const audioRef = useRef(null);
-  const [playing, setPlaying] = useState(false);
 
-  const toggleAudio = () => {
-    if (!audioRef.current) return;
-
-    if (playing) {
-      audioRef.current.pause();
-    } else {
-      audioRef.current.volume = 0.9;
-      audioRef.current.play();
+  useEffect(() => {
+    if (audioRef.current) {
+      audioRef.current.volume = isMuted ? 0 : volume;
     }
+  }, [volume, isMuted]);
 
-    setPlaying(!playing);
-  };
+  useEffect(() => {
+    if (isEnabled && audioRef.current) {
+      audioRef.current.play().catch(() => {});
+    }
+  }, [isEnabled]);
 
   return (
-    <>
-      {/* AUDIO */}
-      <audio ref={audioRef} loop>
-        <source src="/audio/om_gan_ganpatay.mp3" type="audio/mpeg" />
-      </audio>
-
-      {/* BUTTON */}
-      <button
-        onClick={toggleAudio}
-        className="fixed bottom-5 right-5 z-50 bg-yellow-500 text-black p-3 rounded-full shadow-lg hover:scale-110 transition"
-      >
-        {playing ? <FaVolumeUp /> : <FaVolumeMute />}
-      </button>
-    </>
+    <audio ref={audioRef} loop>
+      <source src="/audio/om_gan_ganpatay.mp3" type="audio/mpeg" />
+    </audio>
   );
 }

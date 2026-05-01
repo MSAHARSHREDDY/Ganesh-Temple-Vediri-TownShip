@@ -6,35 +6,35 @@ export const templeData = {
   // ✅ ABOUT SECTION (UNCHANGED + CLEANED)
   // ================================
   about: {
-  title: "SRI HARIHARA SAHITA VANCHITA GANAPATHI DEVALAYAM",
-  subtitle: "శ్రీ హరిహర సహిత వాంఛిత గణపతి దేవాలయము",
-  blessings: ["శ్రీరస్తు", "శుభమస్తు", "అవిఘ్నమస్తు"],
+    title: "SRI HARIHARA SAHITA VANCHITA GANAPATHI DEVALAYAM",
+    subtitle: "శ్రీ హరిహర సహిత వాంఛిత గణపతి దేవాలయము",
+    blessings: ["శ్రీరస్తు", "శుభమస్తు", "అవిఘ్నమస్తు"],
 
-  description: `
+    description: `
 Sri Harihara Sahita Vanchita Ganapathi Devalayam is a sacred temple dedicated to Lord Ganesha, the remover of obstacles and the giver of wisdom, prosperity, and success.
 
 Lord Ganapathi here is worshipped along with Lord Shiva (Harihara) and is believed to fulfill the sincere wishes (Vanchita) of devotees. The temple is a spiritual center where devotees come seeking peace, success, and divine blessings in all aspects of life.
   `,
 
-  history: `
+    history: `
 The temple has been a place of devotion for many years and is regarded as a powerful spiritual center. Devotees believe that prayers offered to Lord Ganapathi here remove obstacles and bring success, harmony, and prosperity.
 
 The name "Vanchita Ganapathi" signifies the deity who fulfills the wishes of devotees with true faith and devotion.
   `,
 
-  festivals: `
+    festivals: `
 - Vinayaka Chavithi
 - Sankatahara Chaturthi
 - Maha Shivaratri
 - Ganesh Navaratri
   `,
 
-  templeInfo: `
+    templeInfo: `
 The temple includes sub-shrines for Lord Shiva, Lord Hanuman, and Subramanya Swamy. Daily poojas such as  Archana, and Abhishekam are performed following traditional rituals.
 
 Special poojas are conducted on Chaturthi days, attracting a large number of devotees.
   `,
-},
+  },
 
   // ================================
   // ✅ SUB TEMPLES (UNCHANGED)
@@ -123,12 +123,12 @@ Special poojas are conducted on Chaturthi days, attracting a large number of dev
       },
 
       { name: "Sevas", path: "/sevas" },
-       {
-      name: "Donors",
-      dropdown: [
-        { name: "All Donors", path: "/donors" }
-      ]
-    },
+      {
+        name: "Donors",
+        dropdown: [
+          { name: "All Donors", path: "/donors" }
+        ]
+      },
       { name: "Gallery", path: "/gallery" },
       { name: "Contact", path: "/contact" },
     ],
@@ -141,30 +141,30 @@ Special poojas are conducted on Chaturthi days, attracting a large number of dev
 
     // 🔥 MERGED HISTORY + SIGNIFICANCE (IMPORTANT CHANGE)
     history: {
-  title: "History & Significance",
-  subtitle: "శ్రీ హరిహర సహిత వాంఛిత గణపతి దేవాలయము",
-  blessings: ["శ్రీరస్తు", "శుభమస్తు", "అవిఘ్నమస్తు"],
+      title: "History & Significance",
+      subtitle: "శ్రీ హరిహర సహిత వాంఛిత గణపతి దేవాలయము",
+      blessings: ["శ్రీరస్తు", "శుభమస్తు", "అవిఘ్నమస్తు"],
 
-  content: [
-    "🏛️ Sri Harihara Sahita Vanchita Ganapathi Devalayam is a sacred temple dedicated to Lord Ganesha, the remover of obstacles and the bestower of wisdom and success.",
+      content: [
+        "🏛️ Sri Harihara Sahita Vanchita Ganapathi Devalayam is a sacred temple dedicated to Lord Ganesha, the remover of obstacles and the bestower of wisdom and success.",
 
-    "🐘 Lord Ganapathi is worshipped as the **first deity (Adi Devata)** before starting any auspicious work, symbolizing success, intelligence, and prosperity.",
+        "🐘 Lord Ganapathi is worshipped as the **first deity (Adi Devata)** before starting any auspicious work, symbolizing success, intelligence, and prosperity.",
 
-    "📖 The name 'Vanchita Ganapathi' signifies the divine form who **fulfills the wishes and desires of devotees** with true devotion.",
+        "📖 The name 'Vanchita Ganapathi' signifies the divine form who **fulfills the wishes and desires of devotees** with true devotion.",
 
-    "🕉️ 'Harihara Sahita' represents the presence and blessings of **Lord Shiva and Lord Vishnu**, making the temple spiritually powerful and unique.",
+        "🕉️ 'Harihara Sahita' represents the presence and blessings of **Lord Shiva and Lord Vishnu**, making the temple spiritually powerful and unique.",
 
-    "📍 The temple has grown into a strong devotional center, attracting devotees from nearby areas seeking blessings for success and obstacle removal.",
+        "📍 The temple has grown into a strong devotional center, attracting devotees from nearby areas seeking blessings for success and obstacle removal.",
 
-    "📅 Special crowds gather during **Vinayaka Chavithi, Sankatahara Chaturthi, and Ganesh Navaratri**.",
+        "📅 Special crowds gather during **Vinayaka Chavithi, Sankatahara Chaturthi, and Ganesh Navaratri**.",
 
-    "🙏 Devotees believe prayers here **remove obstacles (Vighnas), bring peace, and bless families with prosperity and happiness**.",
+        "🙏 Devotees believe prayers here **remove obstacles (Vighnas), bring peace, and bless families with prosperity and happiness**.",
 
-    "🛕 The temple includes sub-shrines of **Lord Shiva, Hanuman, and Subramanya Swamy**.",
+        "🛕 The temple includes sub-shrines of **Lord Shiva, Hanuman, and Subramanya Swamy**.",
 
-    "🧘 The temple promotes **spiritual growth, discipline, and devotion** in a peaceful and divine environment."
-  ],
-},
+        "🧘 The temple promotes **spiritual growth, discipline, and devotion** in a peaceful and divine environment."
+      ],
+    },
 
     // ================================
     // ✅ DO'S & DON'TS (FIXED FORMAT)
@@ -206,38 +206,38 @@ Special poojas are conducted on Chaturthi days, attracting a large number of dev
       schedule: [
         {
           day: "Monday",
-          morning: "6:00 AM - 11:30 AM",
-          evening: "5:00 PM - 8:30 PM",
+          morning: "6:15 AM - 11:30 AM",
+          evening: "6:00 PM - 8:30 PM",
         },
         {
           day: "Tuesday",
-          morning: "6:00 AM - 11:30 AM",
-          evening: "5:00 PM - 8:30 PM",
+          morning: "6:15 AM - 11:30 AM",
+          evening: "6:00 PM - 8:30 PM",
         },
         {
           day: "Wednesday",
-          morning: "6:00 AM - 11:30 AM",
-          evening: "5:00 PM - 8:30 PM",
+          morning: "6:15 AM - 11:30 AM",
+          evening: "6:00 PM - 8:30 PM",
         },
         {
           day: "Thursday",
-          morning: "6:00 AM - 11:30 AM",
-          evening: "5:00 PM - 8:30 PM",
+          morning: "6:15 AM - 11:30 AM",
+          evening: "6:00 PM - 8:30 PM",
         },
         {
           day: "Friday",
-          morning: "6:00 AM - 11:30 AM",
-          evening: "5:00 PM - 8:30 PM",
+          morning: "6:15 AM - 11:30 AM",
+          evening: "6:00 PM - 8:30 PM",
         },
         {
           day: "Saturday",
-          morning: "6:00 AM - 11:30 AM",
-          evening: "5:00 PM - 8:30 PM",
+          morning: "6:15 AM - 11:30 AM",
+          evening: "6:00 PM - 8:30 PM",
         },
         {
           day: "Sunday",
-          morning: "6:00 AM - 11:30 AM",
-          evening: "5:00 PM - 8:30 PM",
+          morning: "6:15 AM - 11:30 AM",
+          evening: "6:00 PM - 8:30 PM",
         },
       ],
     },
@@ -275,14 +275,37 @@ Special poojas are conducted on Chaturthi days, attracting a large number of dev
 
   //gallery
   gallery: [
-  
-  
-],
+    {
+      image: "/gallery/image1.jpg",
+    },
 
-//contact
-contact: {
-  phone: "9876543210",
-  email: "temple@email.com",
-  location: "Plot no 18&19, Vediri Twp, Ameenpur, Miyapur, Hyderabad, Telangana 502033"
-}
+
+    {
+      image: "/gallery/image2.jpg",
+    },
+    {
+      image: "/gallery/image3.jpg",
+    },
+    {
+      image: "/gallery/image4.jpg",
+    },
+    {
+      image: "/gallery/image5.jpg",
+    },
+    {
+      image: "/gallery/image6.jpg",
+    },
+
+
+  ],
+
+  //contact
+  contact: {
+    phone: "9876543210",
+    email: "temple@email.com",
+    location: "Plot no 18&19, Vediri Twp, Ameenpur, Miyapur, Hyderabad, Telangana 502033"
+  }
+
+
+  
 };
