@@ -71,7 +71,7 @@ export default function TempleInfo() {
 
               <div className="space-y-2">
   {section.dos.map((item, i) => (
-    <p className="font-bold text-gray-800 text-lg" key={i}>
+    <p className="font-bold text-gray-800 text-sm" key={i}>
       {item}
     </p>
   ))}
@@ -86,7 +86,7 @@ export default function TempleInfo() {
 
             <div className="space-y-2">
               {section.donts.map((item, i) => (
-                <p className="font-bold text-gray-800 text-lg" key={i}>
+                <p className="font-bold text-gray-800 text-sm" key={i}>
                   {item}
                 </p>
               ))}

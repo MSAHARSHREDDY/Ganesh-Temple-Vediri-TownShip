@@ -99,7 +99,7 @@ export default function Donors() {
               )}
 
               {/* NAME */}
-              <h3 className="font-bold text-red-800 mb-2">
+              <h3 className="font-bold text-red-800 mb-2 text-sm">
                 {d.donor}
               </h3>
 
@@ -111,7 +111,7 @@ export default function Donors() {
               )}
 
               {/* AMOUNT */}
-              <p className="text-green-700 font-bold mt-2 text-lg">
+              <p className="text-green-700 font-bold mt-2 text-sm">
                 ₹{d.amount.toLocaleString()}
               </p>
             </div>
